@@ -1,0 +1,66 @@
+/* My first external CSS Stylesheet
+*/
+
+body {
+    padding: 10;
+    margin: 0;
+    font-family: Georgia, "Calibri", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    color: #404240;
+    background: #dcdedc;
+}
+
+header {
+    font-variant-caps: all-small-caps;
+    background-color: black;
+    color: lightblue;
+    }
+
+h1 {
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+a {
+    color: #b82046
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+p {
+    padding-right: 20px;
+}
